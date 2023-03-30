@@ -1,9 +1,11 @@
 import React from "react";
 
+import Fonts from "./components/Fonts/Fonts";
 function App() {
   return (
-    <div className="bg-blue-800">
-      <h1 className="text-red-700">Hello Word!</h1>
+    <div className="p-2">
+      <h1 className="text-3xl">Aprendendo Tailwind</h1>
+      <Fonts />
     </div>
   );
 }
