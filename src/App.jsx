@@ -5,13 +5,14 @@ import React from "react";
 // import Borders from "./components/Borders/Borders";
 // import Backgrounds from "./components/Backgrounds/Backgrounds";
 // import WidthHeight from "./components/WidthHeight/WidthHeight";
-import FlexBox from "./components/FlexBox/FlexBox";
+// import FlexBox from "./components/FlexBox/FlexBox";
+import Grid from "./components/Grid/Grid";
 
 function App() {
   return (
     <div className="p-2 h-screen">
       <h1 className="text-3xl">Aprendendo Tailwind</h1>
-      <FlexBox />
+      <Grid />
     </div>
   );
 }
