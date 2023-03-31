@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .laravue {
+        @apply bg-black font-bold;
+    }
+}
